@@ -1,9 +1,29 @@
-.ipynb_checkpoints/
+# Python
 __pycache__/
 *.pyc
-.DS_Store
-.venv/
-venv/
+*.pyo
 *.egg-info/
 dist/
 build/
+
+# Virtual environments
+.venv/
+venv/
+
+# IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project
+outputs/
+models/
+.ipynb_checkpoints/
+
+# Testing / linting
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
