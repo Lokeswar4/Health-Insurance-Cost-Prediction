@@ -22,6 +22,9 @@ outputs/
 models/
 .ipynb_checkpoints/
 
+# Claude Code
+.claude/
+
 # Testing / linting
 .pytest_cache/
 .ruff_cache/

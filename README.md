@@ -226,7 +226,6 @@ Default: 30 Optuna trials per model (configure via `OPTUNA_TRIALS` in `src/confi
 │   └── insurance.csv           # Kaggle Medical Cost Personal Dataset
 ├── pyproject.toml              # Dependencies: pandas, scikit-learn, xgboost, lightgbm, optuna, …
 ├── Makefile                    # install / test / lint / format / run
-├── CLAUDE.md                   # AI assistant context (architecture, commands, design decisions)
 └── .github/workflows/ci.yml    # CI: ruff lint + pytest on Python 3.12 and 3.13
 ```
 
